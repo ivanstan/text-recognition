@@ -1,0 +1,14 @@
+{
+  "name": "text-recognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "text-from-image": "^1.1.1"
+  }
+}
