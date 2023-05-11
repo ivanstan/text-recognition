@@ -13,6 +13,8 @@ const storage = multer.diskStorage({
     filename: (req, file, cb) => cb(null, `${Date.now()}${path.extname(file.originalname)}`),
 });
 
+app.get('/', (req, res) => res.send('Hello World!'));
+
 app.post('/api/recognize', multer({storage}).single('file'), (req, res) => {
     const file = req.file;
 
