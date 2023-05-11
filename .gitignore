@@ -133,3 +133,5 @@ dist
 .pnp.*
 
 *.traineddata
+uploads/*
+!uploads/test.png
